@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>BizLand Bootstrap Template - Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+  </script>
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: BizLand - v3.7.0
+  * Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq section-bg">
+      <div class="container" data-aos="fade-up">
+
+      
+
+        <div class="row justify-content-center">
+          <div class="col-xl-10">
+            <ul class="faq-list">
+
+            <div class="leftRow">
+              <li>
+                <div data-bs-toggle="collapse" class="collapsed question" href="#faq1"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Simple_square_with_sides_marked.svg/70px-Simple_square_with_sides_marked.svg.png" alt="">Square<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                <div id="faq1" class="collapse" data-bs-parent=".faq-list">                  
+                  <p class="contentInDropdown">
+                    <h1 class="area">Area : <span id="areaOfSquare"></span></h1>
+                    <span class="variable">a</span><span class="nameOfWhatItIs">Side</span><input type="number" placeholder="Enter Value" class="inputs" id="squareSide" onchange="areaSquare()"><br><br>
+                    <h6>Formula: <span class="formula">a<sup>2</sup></span></h6>
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div data-bs-toggle="collapse" href="#faq2" class="collapsed question"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Sides_in_rectangle.svg/70px-Sides_in_rectangle.svg.png" alt=""> Rectangle <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    <h1 class="area">Area : <span id="areaOfRect"></span></h1>
+                    <span class="variable">l</span><span class="nameOfWhatItIs">Length</span><input type="number" placeholder="Enter Value" class="inputs" id="lengthRect" onchange="areaRectangle()"><br>
+                    <span class="variable">b</span><span class="nameOfWhatItIs">Breadth</span><input type="number" placeholder="Enter Value" class="inputs" style="margin-left: -15px;" id="breadthRect" onchange="areaRectangle()"><br>
+                    <h5>Formula: <span class="formula">l&times;b</span></h5></p>
+                </div>
+              </li>
+
+              <li>
+                <div data-bs-toggle="collapse" href="#faq3" class="collapsed question"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Rhombus_definition2.svg/70px-Rhombus_definition2.svg.png" alt=""> Rhombus <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    <h1 class="area">Area : <span id="areaOfRhombus"></span></h1>
+                    <span class="variable">d<sub>1</sub></span><span class="nameOfWhatItIs">Diagonal</span><input type="number" placeholder="Enter Value" class="inputs" id="diagonalOneRhombus" onchange="areaRhombus()"><br>
+                    <span class="variable">d<sub>2</sub></span><span class="nameOfWhatItIs">Diagonal</span><input type="number" placeholder="Enter Value" class="inputs" style="margin-left: -3px;" id="diagonalTwoRhombus" onchange="areaRhombus()"><br>
+                    <h5>Formula: <span class="formula"><img src="/assets/img/half.svg" width="12px">(d<sub>1</sub>&#215;d<sub>2</sub>)</span></h5></p>
+                  </p>
+                </div>
+              </li>
+              
+              <li>
+                <div data-bs-toggle="collapse" href="#faq4" class="collapsed question"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Simple_circle_with_radii_and_diameter_01.svg/70px-Simple_circle_with_radii_and_diameter_01.svg.png" alt=""> Circle <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    <h1 class="area">Area : <span id="areaOfCircle"></span></h1>
+                    <span class="variable">r</span><span class="nameOfWhatItIs">Radius</span><input type="number" placeholder="Enter Value" class="inputs" id="circleRadius" onchange="areaCircle()"><br><br>
+                    <h6>Formula: <span class="formula">&pi;r<sup>2</sup></span></h6>
+                  </p>
+                </div>
+              </li>
+
+            </div>  
+
+            <div class="rightRow">
+              <li>
+                <div data-bs-toggle="collapse" href="#faq5" class="collapsed question"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Trapezoid.svg/100px-Trapezoid.svg.png" alt=""> Trapezium<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+                  <p class="contentInDropdown">
+                    <h1 class="area">Area : <span id="areaOfTrapezium"></span></h1>
+                    <span class="variable">a</span><span class="nameOfWhatItIs">Base</span><input type="number" placeholder="Enter Value" class="inputs" id="baseOneTrapezium" onchange="areaTrapezium()"><br>
+                    <span class="variable">b</span><span class="nameOfWhatItIs">Base</span><input type="number" placeholder="Enter Value" class="inputs" id="baseTwoTrapezium" onchange="areaTrapezium()"><br>
+                    <span class="variable">h</span><span class="nameOfWhatItIs">Height</span><input type="number" placeholder="Enter Value" class="inputs" id="heightTrapezium" onchange="areaTrapezium()"><br><br>
+                    <h5>Formula: <span class="formula"><img src="/assets/img/half.svg" width="12px"> h(a+b)</span></h5>
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div data-bs-toggle="collapse" href="#faq7" class="collapsed question"><img src="https://upload.wikimedia.org/wikipedia/commons/6/67/3-4-5_triangle.svg" width="40px"> Triangle <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                <div id="faq7" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    <h1 class="area">Area : <span id="areaOfTriangle"></span></h1>
+                    <span class="variable">b</span><span class="nameOfWhatItIs">Base</span><input type="number" placeholder="Enter Value" class="inputs" id="baseTriangle" onchange="areaTriangle()"><br>
+                    <span class="variable">h</span><span class="nameOfWhatItIs">Height</span><input type="number" placeholder="Enter Value" class="inputs" style="margin-left: -12px;" id="heightTriangle" onchange="areaTriangle()"><br>
+                    <h5>Formula: <span class="formula"><img src="/assets/img/half.svg" width="12px">(b&times;h)</span></h5></p>
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div data-bs-toggle="collapse" href="#faq8" class="collapsed question"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Parallelogram_simple.svg/100px-Parallelogram_simple.svg.png" alt=""> Parallelogram <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                <div id="faq8" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    <h1 class="area">Area : <span id="areaOfParallelogram"></span></h1>
+                    <span class="variable">b</span><span class="nameOfWhatItIs">Base</span><input type="number" placeholder="Enter Value" class="inputs" id="baseParallelogram" onchange="areaParallelogram()"><br>
+                    <span class="variable">h</span><span class="nameOfWhatItIs">Height</span><input type="number" placeholder="Enter Value" class="inputs" style="margin-left: -15px;" id="heightParallelogram" onchange="areaParallelogram()"><br>
+                    <h5>Formula: <span class="formula">b&times;h</span></h5></p>
+                  </p>
+                </div>
+              </li>
+              
+              <li>
+                <div data-bs-toggle="collapse" href="#faq9" class="collapsed question"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Area_moment_of_inertia_of_a_semicircle.svg/100px-Area_moment_of_inertia_of_a_semicircle.svg.png" alt=""> Semi Circle <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                <div id="faq9" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    <h1 class="area">Area : <span id="areaOfSemiCircle"></span></h1>
+                    <span class="variable">r</span><span class="nameOfWhatItIs">Radius</span><input type="number" placeholder="Enter Value" class="inputs" id="semiCircleRadius" onchange="areaSemiCircle()"><br><br>
+                    <h6>Formula: <span class="formula"><img src="/assets/img/areaOfSemiCircle.svg"  width="35px"></span></h6>
+                  </p>
+                </div>
+              </li>
+            </div>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
+
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
